@@ -13,3 +13,6 @@ Function g {
 Function ke {
     Start-Process https://keep.google.com
 }
+Function te {
+    Start-Process https://teams.microsoft.com
+}
