@@ -13,6 +13,9 @@ Function g {
 Function ke {
     Start-Process https://keep.google.com
 }
+Function n {
+    Start-Process https://amplenote.com/notes
+}
 Function op {
     ii ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 }
