@@ -13,6 +13,12 @@ Function g {
 Function ke {
     Start-Process https://keep.google.com
 }
+Function op {
+    ii ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+}
+Function ou {
+    Start-Process https://outlook.office.com
+}
 Function te {
     Start-Process https://teams.microsoft.com
 }
