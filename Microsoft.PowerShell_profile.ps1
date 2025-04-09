@@ -7,6 +7,9 @@ Function c {
 Function ca {
     Start-Process https://calendar.google.com
 }
+Function d {
+    Start-Process https://drive.google.com
+}
 Function g {
     Start-Process https://github.com/mxvish?tab=repositories
 }
@@ -24,4 +27,7 @@ Function ou {
 }
 Function te {
     Start-Process https://teams.microsoft.com
+}
+Function vpn {
+    Start-Process https://vpn.inf.shizuoka.ac.jp/dana-na/auth/url_3/welcome.cgi
 }
