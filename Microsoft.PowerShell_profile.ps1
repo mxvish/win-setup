@@ -1,3 +1,7 @@
+Function prompt {
+    $currentDir = Split-Path -Leaf (Get-Location)
+    "`n" + "$currentDir $ "
+}
 Function a {
     Start-Process https://amazon.co.jp
 }
@@ -13,8 +17,17 @@ Function cg {
 Function d {
     Start-Process https://drive.google.com
 }
+Function de {
+    Start-Process https://deepl.com
+}
 Function g {
     Start-Process https://github.com/mxvish?tab=repositories
+}
+Function gd {
+    Start-Process C:\ProgramData\oshik\GitHubDesktop\GitHubDesktop.exe
+}
+Function k {
+    Start-Process https://keybr.com
 }
 Function ke {
     Start-Process https://keep.google.com
@@ -46,3 +59,5 @@ Function te {
 Function vpn {
     Start-Process https://vpn.inf.shizuoka.ac.jp/dana-na/auth/url_3/welcome.cgi
 }
+
+Set-PSReadLineKeyHandler -Key Ctrl+j -Function AcceptLine
