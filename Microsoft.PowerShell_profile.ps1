@@ -1,6 +1,6 @@
 Function prompt {
     $currentDir = Split-Path -Leaf (Get-Location)
-    "`n" + "$currentDir $ "
+    "`n" + "$currentDir $"
 }
 Function a {
     Start-Process https://amazon.co.jp
@@ -10,6 +10,9 @@ Function c {
 }
 Function ca {
     Start-Process https://calendar.google.com
+}
+Function cac {
+    Start-Process https://docs.google.com/spreadsheets/d/1ECwWvDWYEH4iZL_Hy9V2Xqy0NOVmpsAP/
 }
 Function cg {
     Start-Process https://chatgpt.com
@@ -44,11 +47,17 @@ Function n {
 Function o {
     & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" http://onedrive.live.com
 }
+Function ol {
+    Start-Process https://overleaf.com
+}
 Function op {
     ii ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 }
 Function ou {
     Start-Process https://outlook.office.com
+}
+Function sg {
+    Start-Process https://scholar.google.com
 }
 Function t {
     Start-Process https://app.todoist.com/app
@@ -59,5 +68,10 @@ Function te {
 Function vpn {
     Start-Process https://vpn.inf.shizuoka.ac.jp/dana-na/auth/url_3/welcome.cgi
 }
+Function vs {
+    Start-Process https://docs.google.com/spreadsheets/d/1iuQ-DxULNRZp0QisqnwkH33GpLA8dkec/
+}
 
 Set-PSReadLineKeyHandler -Key Ctrl+j -Function AcceptLine
+Set-PSReadLineKeyHandler -Key Ctrl+n -Function NextHistory
+Set-PSReadLineKeyHandler -Key Ctrl+p -Function PreviousHistory
