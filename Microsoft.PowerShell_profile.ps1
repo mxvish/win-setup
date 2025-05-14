@@ -18,7 +18,7 @@ Function cg {
     Start-Process https://chatgpt.com
 }
 Function d {
-    Start-Process https://drive.google.com
+    Start-Process https://drive.google.com/drive/recent
 }
 Function de {
     Start-Process https://deepl.com
@@ -28,6 +28,9 @@ Function g {
 }
 Function gd {
     Start-Process C:\ProgramData\oshik\GitHubDesktop\GitHubDesktop.exe
+}
+Function j {
+  Start-Process https://shonenjumpplus.com/search
 }
 Function k {
     Start-Process https://keybr.com
