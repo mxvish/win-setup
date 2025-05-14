@@ -29,6 +29,11 @@ Function g {
 Function gd {
     Start-Process C:\ProgramData\oshik\GitHubDesktop\GitHubDesktop.exe
 }
+function i {
+    $url = "https://duckduckgo.com/?q=wiki+"
+    $url += ($args -join ' ')
+    Start-Process $url
+}
 Function j {
   Start-Process https://shonenjumpplus.com/search
 }
