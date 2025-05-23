@@ -23,6 +23,9 @@ Function d {
 Function de {
     Start-Process https://deepl.com
 }
+Function di {
+    C:\Users\oshik\AppData\Local\Discord\Update.exe --processStart Discord.exe
+}
 Function g {
     Start-Process https://github.com/mxvish?tab=repositories
 }
