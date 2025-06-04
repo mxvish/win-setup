@@ -46,6 +46,9 @@ Function k {
 Function ke {
     Start-Process https://keep.google.com
 }
+Function la {
+  Start-Process https://github.com/mxvish/lab/upload/main
+}
 Function lk {
     Start-Process https://linkedin.com/in/koshima
 }
@@ -67,8 +70,17 @@ Function op {
 Function ou {
     Start-Process https://outlook.office.com
 }
+Function rb {
+    Start-Process "https://fes.rakuten-bank.co.jp/MS/main/RbS?CurrentPageID=START&&COMMAND=LOGIN"
+}
+Function rs {
+    Start-Process https://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html
+}
 Function sg {
     Start-Process https://scholar.google.com
+}
+Function ss {
+    Start-Process https://www.sbisec.co.jp/ETGate/
 }
 Function t {
     Start-Process https://app.todoist.com/app
@@ -81,6 +93,9 @@ Function vpn {
 }
 Function vs {
     Start-Process https://docs.google.com/spreadsheets/d/1iuQ-DxULNRZp0QisqnwkH33GpLA8dkec/
+}
+Function y {
+    Start-Process https://youtube.com/feed/playlists
 }
 
 Set-PSReadLineKeyHandler -Key Ctrl+j -Function AcceptLine
