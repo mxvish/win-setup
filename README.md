@@ -4,6 +4,9 @@ setup files for windows
 # Installation
 - PowerShell
 ```ps1
+glt clone https://github.com/mxvish/win-setup.git
+cd win-setup
 mkdir ~\Documents\PowerShell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/mxvish/win-setup/main/Microsoft.PowerShell_profile.ps1" -OutFile "~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
+mv Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+ii setup.ps1
 ```
