@@ -94,9 +94,6 @@ Function te {
 Function tv {
 	Start-Process https://tver.jp/mypage/fav
 }
-Function vc {
-	ii "C:\Users\oshik\AppData\Local\Programs\Microsoft VS Code\Code.exe"
-}
 Function vpn {
 	Start-Process https://vpn.inf.shizuoka.ac.jp/dana-na/auth/url_3/welcome.cgi
 }
