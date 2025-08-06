@@ -32,6 +32,9 @@ Function g {
 Function gd {
 	Start-Process C:\ProgramData\oshik\GitHubDesktop\GitHubDesktop.exe
 }
+Function ga {
+	Start-Process https://gakujo.shizuoka.ac.jp/portal
+}
 function i {
   $url = "https://duckduckgo.com/?q=wiki+"
   $url += ($args -join ' ')
