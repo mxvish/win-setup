@@ -35,6 +35,9 @@ Function gd {
 Function ga {
 	Start-Process https://gakujo.shizuoka.ac.jp/portal
 }
+Function ha {
+	Start-Process https://hands.net
+}
 function i {
   $url = "https://duckduckgo.com/?q=wiki+"
   $url += ($args -join ' ')
