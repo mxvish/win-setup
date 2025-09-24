@@ -100,6 +100,9 @@ Function te {
 Function tv {
 	Start-Process https://tver.jp/mypage/fav
 }
+Function u {
+  winget upgrade -r --accept-package-agreements --include-unknown
+}
 Function vpn {
 	Start-Process https://vpn.inf.shizuoka.ac.jp/dana-na/auth/url_3/welcome.cgi
 }
