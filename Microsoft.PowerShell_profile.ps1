@@ -18,7 +18,7 @@ Function cg {
 	Start-Process https://chatgpt.com
 }
 Function d {
-	Start-Process https://drive.google.com/drive/recent
+	Start-Process https://drive.google.com/drive/my-drive
 }
 Function de {
 	Start-Process https://deepl.com
