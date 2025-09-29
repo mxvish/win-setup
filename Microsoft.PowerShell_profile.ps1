@@ -62,7 +62,7 @@ Function m {
 	Start-Process https://mail.google.com
 }
 Function n {
-	Start-Process https://amplenote.com/notes
+	Start-Process https://github.com/mxvish/private
 }
 Function o {
   & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" http://onedrive.live.com
