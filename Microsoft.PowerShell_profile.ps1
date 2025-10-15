@@ -61,6 +61,9 @@ Function lk {
 Function m {
 	Start-Process https://mail.google.com
 }
+Function ma {
+	Start-Process https://google.com/maps
+}
 Function n {
 	Start-Process https://github.com/mxvish/private
 }
