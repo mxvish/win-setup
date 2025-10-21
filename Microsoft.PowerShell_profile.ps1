@@ -5,6 +5,11 @@ Function prompt {
 Function a {
 	Start-Process https://amazon.co.jp
 }
+function aw {
+  $url = "https://duckduckgo.com/?q=arch+wiki+"
+  $url += ($args -join ' ')
+	Start-Process $url
+}
 Function c {
 	Start-Process https://gemini.google.com
 }
