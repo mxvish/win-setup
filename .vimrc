@@ -6,6 +6,7 @@ set autoread
 set backspace=indent,eol,start
 "set cursorline
 set expandtab
+set foldmethod=indent
 set guifont=Lucida_Console:h11
 set hlsearch
 set incsearch
