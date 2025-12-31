@@ -7,5 +7,5 @@ setup files for windows
 winget install --accept-source-agreements Git.Git
 git clone https://github.com/mxvish/win-setup.git
 cd win-setup
-.\setup.ps1
+powershell.exe -ExecutionPolicy Bypass -File .\setup.ps1
 ```
