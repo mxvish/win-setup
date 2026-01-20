@@ -94,7 +94,9 @@ Function rs {
 	Start-Process https://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html
 }
 Function sg {
-	Start-Process https://scholar.google.com
+  $url = "https://scholar.google.com/scholar?q="
+  $url += ($args -join ' ')
+	Start-Process $url
 }
 Function sr {
 	Start-Process https://ib.surugabank.co.jp/im/IBGate
