@@ -85,7 +85,9 @@ Function ou {
 	Start-Process https://outlook.office.com
 }
 Function pu {
-	Start-Process https://pubmed.ncbi.nlm.nih.gov
+  $url = "https://pubmed.ncbi.nlm.nih.gov/?term="
+  $url += ($args -join ' ')
+	Start-Process $url
 }
 Function rb {
 	Start-Process "https://fes.rakuten-bank.co.jp/MS/main/RbS?CurrentPageID=START&&COMMAND=LOGIN"
