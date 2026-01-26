@@ -58,7 +58,7 @@ Function ke {
 	Start-Process https://keep.google.com
 }
 Function la {
-	Start-Process https://github.com/mxvish/lab/upload/main
+	Start-Process https://github.com/mxvish/lab
 }
 Function lk {
 	Start-Process https://linkedin.com/in/koshima
