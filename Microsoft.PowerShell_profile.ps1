@@ -100,6 +100,11 @@ Function sg {
   $url += ($args -join ' ')
 	Start-Process $url
 }
+Function sjr {
+  $url = "https://www.scimagojr.com/journalsearch.php?q="
+  $url += ($args -join ' ')
+	Start-Process $url
+}
 Function sr {
 	Start-Process https://ib.surugabank.co.jp/im/IBGate
 }
