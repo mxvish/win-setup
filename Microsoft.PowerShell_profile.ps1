@@ -54,6 +54,9 @@ Function j {
 Function k {
 	Start-Process https://keybr.com
 }
+Function l {
+	Start-Process C:\Users\oshik\AppData\Local\LINE\bin\LineLauncher.exe
+}
 Function ke {
 	Start-Process https://keep.google.com
 }
