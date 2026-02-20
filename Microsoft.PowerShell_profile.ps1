@@ -137,11 +137,5 @@ Function y {
 	Start-Process https://youtube.com/feed/playlists
 }
 
-Set-PSReadLineKeyHandler -Chord Ctrl-a -Function BeginningOfLine
-Set-PSReadLineKeyHandler -Chord Ctrl+d -Function DeleteChar
-Set-PSReadLineKeyHandler -Chord Ctrl-e -Function EndOfLine
-Set-PSReadLineKeyHandler -Chord Ctrl+w -Function BackwardDeleteWord
-Set-PSReadLineKeyHandler -Chord Alt+d -Function DeleteWord
+Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineKeyHandler -Key Ctrl+j -Function AcceptLine
-Set-PSReadLineKeyHandler -Key Ctrl+n -Function NextHistory
-Set-PSReadLineKeyHandler -Key Ctrl+p -Function PreviousHistory
