@@ -32,6 +32,9 @@ Function de {
 Function di {
   C:\Users\oshik\AppData\Local\Discord\Update.exe --processStart Discord.exe
 }
+Function dl {
+  ls ~\Downloads\
+}
 Function g {
 	Start-Process https://github.com/mxvish?tab=repositories
 }
