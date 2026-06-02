@@ -19,6 +19,9 @@ Function ca {
 Function cac {
 	Start-Process https://docs.google.com/spreadsheets/d/1ECwWvDWYEH4iZL_Hy9V2Xqy0NOVmpsAP/
 }
+Function cdd {
+	cd ~\Downloads
+}
 Function cg {
 	Start-Process https://chatgpt.com
 }
