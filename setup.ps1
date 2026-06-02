@@ -1,4 +1,4 @@
-winget install --accept-package-agreements btop fastfetch Git.Git GitHub.GitHubDesktop Google.GoogleDrive Google.JapaneseIME gokcehan.lf Microsoft.Teams Mozilla.Firefox Notepad++.Notepad++ ollama microsoft.powershell PDFLabs.PDFtk.Free python rufus.rufus Mozilla.Thunderbird vim.vim winch
+winget install --accept-package-agreements btop fastfetch Git.Git GitHub.GitHubDesktop Google.GoogleDrive Google.JapaneseIME gokcehan.lf Microsoft.Teams Mozilla.Firefox Notepad++.Notepad++ ollama microsoft.powershell microsoft.VisualStudioCode PDFLabs.PDFtk.Free python rufus.rufus Mozilla.Thunderbird vim.vim winch
 winget install --accept-package-agreements XPFCC4CD725961 #line
 
 git clone --depth=1 https://github.com/github/copilot.vim.git `
