@@ -4,5 +4,5 @@ winget install --accept-package-agreements XPFCC4CD725961 #line
 git clone --depth=1 https://github.com/github/copilot.vim.git `
   $HOME/vimfiles/pack/github/start/copilot.vim
 mkdir ~\Documents\PowerShell
-mv Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\
-mv .vimrc ~
+mv Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\ -force
+mv .vimrc ~ -force
