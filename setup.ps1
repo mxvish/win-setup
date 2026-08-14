@@ -13,3 +13,5 @@ git clone --depth=1 https://github.com/github/copilot.vim.git `
 mkdir ~\Documents\PowerShell
 mv Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\ -force
 mv .vimrc ~ -force
+
+rm -r -force ~/OneDrive
