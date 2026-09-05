@@ -17,3 +17,8 @@ mv Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\ -force
 mv .vimrc ~ -force
 
 rm -r -force ~/OneDrive
+
+# remove pins from taskbar
+reg add HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f
+Remove-Item -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband" -Recurse -Force
+Stop-Process -Name explorer -Force
