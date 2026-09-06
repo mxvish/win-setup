@@ -22,3 +22,8 @@ rm -r -force ~/OneDrive
 reg add HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /t REG_DWORD /d 1 /f
 Remove-Item -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband" -Recurse -Force
 Stop-Process -Name explorer -Force
+
+# use capslock as ctrl
+$hex = "00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00".Split(",") |    ForEach-Object { "0x$_" }
+$path = "HKLM:\System\CurrentControlSet\Control\Keyboard Layout"
+New-ItemProperty -Path $path -Name "Scancode Map" -PropertyType Binary -Value ([byte[]]$hex) -Force
