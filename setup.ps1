@@ -27,3 +27,6 @@ Stop-Process -Name explorer -Force
 $hex = "00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00".Split(",") |    ForEach-Object { "0x$_" }
 $path = "HKLM:\System\CurrentControlSet\Control\Keyboard Layout"
 New-ItemProperty -Path $path -Name "Scancode Map" -PropertyType Binary -Value ([byte[]]$hex) -Force
+
+# remove desktop shortcuts
+rm $HOME\Desktop\LINE.lnk
