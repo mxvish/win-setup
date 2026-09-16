@@ -29,4 +29,5 @@ $path = "HKLM:\System\CurrentControlSet\Control\Keyboard Layout"
 New-ItemProperty -Path $path -Name "Scancode Map" -PropertyType Binary -Value ([byte[]]$hex) -Force
 
 # remove desktop shortcuts
+rm $HOME\Desktop\gVim*lnk
 rm $HOME\Desktop\LINE.lnk
