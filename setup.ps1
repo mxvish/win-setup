@@ -5,7 +5,7 @@ Set-WinHomeLocation -GeoId 244
 
 winget uninstall onedrive
 
-winget install --accept-package-agreements btop fastfetch Git.Git GitHub.GitHubDesktop Google.GoogleDrive Google.JapaneseIME gokcehan.lf Microsoft.Teams Mozilla.Firefox Notepad++.Notepad++ ollama microsoft.powershell microsoft.VisualStudioCode PDFLabs.PDFtk.Free python rufus.rufus Mozilla.Thunderbird vim.vim winch --source winget
+winget install --accept-package-agreements btop fastfetch Git.Git GitHub.GitHubDesktop Google.GoogleDrive Google.JapaneseIME gokcehan.lf Microsoft.Teams Mozilla.Firefox Notepad++.Notepad++ ollama microsoft.powershell microsoft.VisualStudioCode neovim PDFLabs.PDFtk.Free python rufus.rufus Mozilla.Thunderbird winch --source winget
 winget install --accept-package-agreements XPFCC4CD725961 #line
 
 winget upgrade -r
@@ -14,7 +14,8 @@ git clone --depth=1 https://github.com/github/copilot.vim.git `
   $HOME/vimfiles/pack/github/start/copilot.vim
 mkdir ~\Documents\PowerShell
 mv Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\ -force
-mv .vimrc ~ -force
+mkdir ~\AppData\Local\nvim
+mv .vimrc ~\AppData\Local\nvim\init.vim
 
 rm -r -force ~/OneDrive
 
@@ -29,5 +30,4 @@ $path = "HKLM:\System\CurrentControlSet\Control\Keyboard Layout"
 New-ItemProperty -Path $path -Name "Scancode Map" -PropertyType Binary -Value ([byte[]]$hex) -Force
 
 # remove desktop shortcuts
-rm $HOME\Desktop\gVim*lnk
 rm $HOME\Desktop\LINE.lnk
