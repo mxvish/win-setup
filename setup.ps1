@@ -5,8 +5,33 @@ Set-WinHomeLocation -GeoId 244
 
 winget uninstall onedrive
 
-winget install --accept-package-agreements btop fastfetch Git.Git GitHub.GitHubDesktop Google.GoogleDrive Google.JapaneseIME gokcehan.lf Microsoft.Teams Mozilla.Firefox Notepad++.Notepad++ ollama microsoft.powershell valve.steam microsoft.VisualStudioCode neovim PDFLabs.PDFtk.Free python rufus.rufus Mozilla.Thunderbird vesktop winch --source winget
-winget install --accept-package-agreements XPFCC4CD725961 #line
+$packages = @(
+	"btop",
+	"fastfetch",
+	"Git.Git",
+	"GitHub.GitHubDesktop",
+	"Google.GoogleDrive",
+	"Google.JapaneseIME",
+	"gokcehan.lf",
+	"XPFCC4CD725961", #line
+	"Microsoft.Teams",
+	"Mozilla.Firefox",
+	"Notepad++.Notepad++",
+	"ollama",
+	"microsoft.powershell",
+	"microsoft.VisualStudioCode",
+	"PDFLabs.PDFtk.Free",
+	"python",
+	"rufus.rufus",
+	"Mozilla.Thunderbird",
+	"vim.vim",
+	"winch"
+)
+#	--source winget
+
+foreach ($package in $packages) {
+	winget install --accept-package-agreements $package
+}
 
 winget upgrade -r
 
