@@ -7,7 +7,6 @@ winget uninstall onedrive
 
 $packages = @(
 	"btop",
-	"fastfetch",
 	"Git.Git",
 	"GitHub.GitHubDesktop",
 	"Google.GoogleDrive",
@@ -23,9 +22,7 @@ $packages = @(
 	"PDFLabs.PDFtk.Free",
 	"python",
 	"rufus.rufus",
-	"Mozilla.Thunderbird",
-	"vim.vim",
-	"winch"
+	"Mozilla.Thunderbird"
 )
 #	--source winget
 
