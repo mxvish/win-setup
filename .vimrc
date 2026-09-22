@@ -4,6 +4,10 @@ let &t_EI.="\e[1 q"
 
 set autoread
 set backspace=indent,eol,start
+
+" enable clipboard
+set clipboard+=unnamedplus
+
 "set cursorline
 set expandtab
 set foldmethod=indent
