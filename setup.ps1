@@ -13,6 +13,7 @@ $packages = @(
 	"Google.JapaneseIME",
 	"gokcehan.lf",
 	"XPFCC4CD725961", #line
+	"logisim-evolution",
 	"Microsoft.Teams",
 	"Mozilla.Firefox",
 	"Notepad++.Notepad++",
