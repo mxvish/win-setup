@@ -20,7 +20,7 @@ $packages = @(
 	"ollama",
 	"microsoft.powershell",
 	"microsoft.VisualStudioCode",
-	"PDFLabs.PDFtk.Free",
+	"pdfsam.pdfsam",
 	"python",
 	"rufus.rufus",
 	"tailscale.tailscale",
