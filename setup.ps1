@@ -22,7 +22,9 @@ $packages = @(
 	"PDFLabs.PDFtk.Free",
 	"python",
 	"rufus.rufus",
-	"Mozilla.Thunderbird"
+	"tailscale.tailscale",
+	"Mozilla.Thunderbird",
+	"microsoft.windowsapp"
 )
 #	--source winget
 
