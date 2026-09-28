@@ -12,7 +12,6 @@ set clipboard+=unnamedplus
 "set expandtab "for .asm
 set noexpandtab
 set foldmethod=indent
-set guifont=Lucida_Console:h11
 set hlsearch
 set incsearch
 set noswapfile
