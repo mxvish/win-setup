@@ -21,10 +21,12 @@ set smartindent
 set tabstop=2
 syntax enable
 
+nnoremap <S-h> :wincmd h<CR>
 nnoremap <C-h> :wincmd h<CR>
 nnoremap <C-j> :wincmd j<CR>
 nnoremap <C-k> :wincmd k<CR>
 nnoremap <C-l> :wincmd l<CR>
+nnoremap <S-l> :wincmd l<CR>
 nnoremap <C-q> :q!<CR>
 
 inoremap { {}<Left>
