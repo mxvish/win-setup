@@ -17,6 +17,7 @@ $packages = @(
 	"Microsoft.Teams",
 	"Mozilla.Firefox",
 	"Notepad++.Notepad++",
+	"neovim",
 	"ollama",
 	"microsoft.powershell",
 	"microsoft.VisualStudioCode",
